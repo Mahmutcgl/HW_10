@@ -1,0 +1,70 @@
+    1  git status
+    2  git init
+    3  git status
+    4  git config --global user.name "Mahmutcgl"
+    5  git config --global user.email "mcogal.32@hotmail.com"
+    6  git clone https://github.com/Mahmutcgl/HW_10.git
+    7  cd HW_10
+    8  touch text_igrone.txt
+    9  git status
+   10  git branch
+   11  git status
+   12  git add.
+   13  git add .
+   14  git status
+   15  git commit -m "Homework"
+   16  git add .
+   17  git push
+   18  mkdir main_test.txt
+   19  git add .
+   20  git push
+   21  checkout
+   22  mkdir develop_test.txt
+   23  git add .
+   24  git push
+   25  cd develop_test.txt
+   26  git status
+   27  git status
+   28  git push
+   29  git add .
+   30  git push
+   31  touch main_test.txt
+   32  cd
+   33  cd desktop
+   34  cd work/HW_10
+   35  touch main_test.txt
+   36  touch develop_test.txt
+   37  git add .
+   38  git push
+   39  git status
+   40  checkout
+   41  git pull
+   42  git branch
+   43  git chekout Mahmut
+   44  git branch
+   45  git merge main Mahmut
+   46  git merge main
+   47  checkout
+   48  cd desktop
+   49  cd HWork
+   50  -c && rm ~/.bash_history
+   51  git clone https://github.com/Mahmutcgl/HW_10.git
+   52  cd HW_10
+   53  touch text_ignore.txt
+   54  git status
+   55  git add .
+   56  git commit -m "text_ignore eklendi"
+   57  touch main_test.txt
+   58  git add .
+   59  git commit -m "main_test.txt eklendi"
+   60  git checkout -b develop
+   61  touch develop_test.txt
+   62  git add .
+   63  git commit -m "develop_test.txt eklendi"
+   64  git status
+   65  git add .
+   66  git commit -m " develop_test.txt değişiklik yapıldı"
+   67  git checkout main
+   68  git merge develop
+   69  git log
+   70  history > command_list.csv
